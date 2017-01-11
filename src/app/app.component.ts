@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   template: `
     <h1>Inline other template</h1>
     <fa-other></fa-other>
+    <fa-another></fa-another>
     `,
   styleUrls: ['./app.component.css']
 })
