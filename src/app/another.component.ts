@@ -3,11 +3,13 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'fa-another',
   template: `
-    <p>
-      another also Works!
-    </p>
+    <article></article>
   `,
-  styles: []
+  styles: [`
+      article{
+        border: 1px solid black;
+      }
+   `]
 })
 export class AnotherComponent implements OnInit {
 

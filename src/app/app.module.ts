@@ -6,12 +6,16 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { OtherComponent } from './other/other.component';
 import { AnotherComponent } from './another.component';
+import { HeroComponent } from './hero/hero.component';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OtherComponent,
-    AnotherComponent
+    AnotherComponent,
+    HeroComponent,
+    HeroDetailComponent
   ],
   imports: [
     BrowserModule,
