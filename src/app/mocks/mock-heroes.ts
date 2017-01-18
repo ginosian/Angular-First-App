@@ -1,4 +1,4 @@
-import {HeroComponent} from "../hero/hero.component";
+import {HeroComponent} from "../app-components/heroes-component/hero/hero.component";
 
 /**
  * Created by Martha on 1/12/2017.
